@@ -25,7 +25,7 @@ import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputLayout;
 
-public class MainActivity extends AppCompatActivity {
+public class  MainActivity extends AppCompatActivity {
 
     Button btn1, btn2, btn3, btn4;
     TextInputLayout textInputLayout;
