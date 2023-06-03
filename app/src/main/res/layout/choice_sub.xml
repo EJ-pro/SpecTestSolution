@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4A1515"
+        android:text="유형별 학습하기"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4A1515"
+        android:text="유형 선택"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:gravity="center"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="소프트웨어 설계"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edge"
+        android:id="@+id/choice_checkbox1"
+        android:scaleX="1"
+        android:scaleY="1"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="소프트웨어 개발"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edge"
+        android:id="@+id/choice_checkbox2"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데이터베이스 구축"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edge"
+        android:id="@+id/choice_checkbox3"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="프로그래밍 언어 활용"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edge"
+        android:id="@+id/choice_checkbox4"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정보시스템 구축 관리"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edge"
+        android:id="@+id/choice_checkbox5"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="시작"
+        android:id="@+id/choice_start"
+        android:textSize="20dp"
+        android:background="@color/black"
+        android:layout_margin="10dp"/>
+</LinearLayout>
+    <!--
+        체크박스 : choice_checkbox1~4
+        시작 버튼 : choice_start
+        -->
