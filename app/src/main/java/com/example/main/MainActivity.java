@@ -32,7 +32,7 @@ public class  MainActivity extends AppCompatActivity {
     AutoCompleteTextView autoCompleteTextView;
     TextView text,title;
     Dialog dialogx, dialogo;
-    //popupx 시작메소드 showpopupx(); < 실행문구
+    //popupx 시작메소드 show   popupx(); < 실행문구
     public void showpopupx(){
         dialogx.show();
 
